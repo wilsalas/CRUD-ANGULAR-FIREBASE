@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../src/assets/bootstrap/css/bootstrap.min.css",
+        "../node_modules/ngx-toastr/toastr.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../src/assets/bootstrap/js/jquery-3.2.1.slim.min.js",
+        "../src/assets/bootstrap/js/popper.min.js",
+        "../src/assets/bootstrap/js/bootstrap.min.js",
+        "../src/assets/bootstrap/js/fontawesome.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
